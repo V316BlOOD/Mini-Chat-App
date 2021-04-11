@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="template.css">
+    <title>Chat App</title>
+</head>
+<body>
+    <div id="mainWrapper">
+        <div id="messagesBoard">
+            <div className="receivedMessage">
+                <span className="senderName">Yassine:</span>
+                <span className="message">Hello Everybody, how's going !!</span>
+            </div>
+            <div className="sentMessage">Fine dude everything goes fine</div>
+        </div>
+        <div id="messagingBar">
+            <div className="userContainer">
+                <label for="userField">Pseudo</label>
+                <input id="userField" type="text" name="username">
+            </div>
+            <div className="messageContainer">
+                <label for="messageField">Message</label>
+                <input id="messageField" type="text" autocomplete="off" name="message">
+            </div>
+            <div className="sendButtonContainer">
+                <button> Envoyer </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
